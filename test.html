@@ -1,35 +1,61 @@
-<a href = "https://www.amazon.com/" target="_blank">Back to amazon</a>
-<p class="Nike">Nike Black Running Shoes</p>
-<p class ="price">$39 - in stock.</p>
-<p>Free delivery tomorrow</p>
-<button class = "add">Add to card</button>
-<button class ="buy">Buy Now</button>
+
 <style>
-    .Nike{
-        color:black;
-        font-weight: bolder;
-        font-size:30px;
-    }
-    .price{
-        color: rgb(0,118,0);
-        font-weight: bold;
-        font-size:18px
-    }
-    .add{
-        background-color:rgb(255, 216, 20);
-        color:black;
+    .redbutton{
+        background-color:rgb(194, 32, 32);
+        color:white;
         border:none;
-        height:30px;
-        width:100px;
-        border-radius:20px;
-        margin-right:10px;
+        height: 35px;
+        width: 110px;
+        border-radius:5px;
+        cursor:pointer;
+        margin-right: 8px;
+
     }
-    .buy{
-        background-color:rgb(255, 164, 28);
-        color:black;
-        border:none;
-        height:30px;
-        width:100px;
-        border-radius:20px;
+    .redbutton:hover{
+        opacity:0.8;
     }
+    .redbutton:active{
+        background-color: rgb(249, 88, 88);
+        opacity:0,1;
+    }
+    .joinbut{
+        background-color:white;
+        color: rgb(100, 115, 243);
+        border-color:rgb(100, 115, 243);
+        height:35px;
+        width: 100px;
+        border-radius:6px;
+        border:solid;
+        border-width:1;
+        cursor: pointer;
+    }
+    .joinbut:hover{
+        background-color:rgb(100, 115, 243);
+        color:white;
+    }
+    .joinbut:active{
+        opacity:0.3;
+    }
+    .Tweet{
+        background-color:rgb(32, 110, 255);
+        color: white;
+        border: none;
+        height: 32px;
+        width: 60px;
+        border-radius: 17px;
+        cursor:pointer;
+        margin-left:9px;
+        font-weight:bold;
+        font-size: 14px;
+    }
+    .Tweet.hover{
+        opacity:0.8;
+    }
+    .Tweet.active{
+        opacity:0.1;
+    }
+    
 </style>
+<button class = "redbutton">Subscribe</button>
+<button class="joinbut">JOIN</button>
+<button class ="Tweet">Tweet</button>
